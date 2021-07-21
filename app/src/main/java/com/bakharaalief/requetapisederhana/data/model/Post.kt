@@ -1,4 +1,4 @@
-package com.bakharaalief.requetapisederhana.model
+package com.bakharaalief.requetapisederhana.data.model
 
 import com.squareup.moshi.Json
 

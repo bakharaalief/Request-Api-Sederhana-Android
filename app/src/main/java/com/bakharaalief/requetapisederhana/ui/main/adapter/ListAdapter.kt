@@ -1,12 +1,12 @@
-package com.bakharaalief.requetapisederhana
+package com.bakharaalief.requetapisederhana.ui.main.adapter
 
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.bakharaalief.requetapisederhana.model.Post
+import com.bakharaalief.requetapisederhana.R
+import com.bakharaalief.requetapisederhana.data.model.Post
 
 class ListAdapter : RecyclerView.Adapter<ListAdapter.ViewHolder>() {
 

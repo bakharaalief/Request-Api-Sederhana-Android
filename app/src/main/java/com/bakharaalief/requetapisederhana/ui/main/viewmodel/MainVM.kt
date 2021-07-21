@@ -1,12 +1,10 @@
-package com.bakharaalief.requetapisederhana
+package com.bakharaalief.requetapisederhana.ui.main.viewmodel
 
-import android.util.Log
-import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.bakharaalief.requetapisederhana.model.Post
-import com.bakharaalief.requetapisederhana.network.ServiceBuilder
+import com.bakharaalief.requetapisederhana.data.model.Post
+import com.bakharaalief.requetapisederhana.data.api.ServiceBuilder
 import kotlinx.coroutines.launch
 
 class MainVM : ViewModel() {

@@ -1,4 +1,4 @@
-package com.bakharaalief.requetapisederhana.network
+package com.bakharaalief.requetapisederhana.data.api
 
 import com.squareup.moshi.Moshi
 import com.squareup.moshi.kotlin.reflect.KotlinJsonAdapterFactory

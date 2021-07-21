@@ -1,15 +1,16 @@
-package com.bakharaalief.requetapisederhana
+package com.bakharaalief.requetapisederhana.ui.main.view
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
 import android.view.View
-import android.view.View.*
 import android.widget.ProgressBar
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.bakharaalief.requetapisederhana.R
+import com.bakharaalief.requetapisederhana.ui.main.adapter.ListAdapter
+import com.bakharaalief.requetapisederhana.ui.main.viewmodel.MainVM
 
 class MainActivity : AppCompatActivity() {
 

@@ -52,5 +52,4 @@ dependencies {
 
     //handle error classpath not have same version when use moshi
     implementation "org.jetbrains.kotlin:kotlin-reflect:1.5.20"
-
 }
