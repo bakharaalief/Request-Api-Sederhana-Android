@@ -46,8 +46,9 @@ class MainActivity : AppCompatActivity() {
         val rvAdapter = ListAdapter()
         viewModel.listPost.observe(this, Observer {
             rvAdapter.listPost = it
+            myRV.adapter = rvAdapter
         })
-        myRV.adapter = rvAdapter
+
         val layoutManager = LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false)
         myRV.layoutManager = layoutManager
     }
